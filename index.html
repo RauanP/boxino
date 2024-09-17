@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boxino</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/icone2.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/responsivo.css" media="all"> 
+    
+</head>
+<body> 
+    <main> 
+      <div id="txtnome">
+        <input id="nome" type="text" placeholder="nome" autocomplete="none" maxlength="3" >
+      </div>
+      <div class="proximo">
+        <input id="txtfase" type="text" placeholder="" disabled > 
+        <input id="txtfase2" type="text" placeholder="" disabled> 
+      </div>
+
+      <div class="jogar">
+        <a href="indexSite.html"><button>Voltar</button></a>
+        <button onclick="Jogar()">Start</button>
+        <button onclick="Parar()">Parar</button>
+      </div> 
+
+      <div class="container">
+        <div class="centralizar">
+          <div id="raio">
+            <img id="botao" onclick="bonus(this)"  src="img/game_icon_full.png" alt="teste">
+            <img id="botao2" onclick="bonus(this)" src="img/game_icon_full.png" alt="teste">
+            <img id="botao3" onclick="bonus(this)" src="img/game_icon_full.png" alt="teste">
+            <img id="botao4" onclick="bonus(this)" src="img/game_icon_full.png" alt="teste">
+            <img id="botao5" onclick="bonus(this)" src="img/game_icon_full.png" alt="teste">
+            <img id="botao6" onclick="bonus(this)" src="img/game_icon_full.png" alt="teste">
+            <img id="botao7" onclick="bonus(this)" src="img/game_icon_full.png" alt="teste">
+            <img id="botao8" onclick="bonus(this)" src="img/game_icon_full.png" alt="teste">
+          </div>
+        </div>
+        
+      </div> 
+      
+    </main>
+    <script src="js/js.js"></script>
+</body>
+</html>

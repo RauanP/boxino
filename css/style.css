@@ -1,0 +1,221 @@
+*{
+    margin: 0px;
+    padding: 0px; 
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,600;1,900&display=swap');
+
+@font-face {
+    font-family: Pixel02;
+   src: url(../fonts/04b_30/04B_30__.TTF); 
+}
+:root{
+    --cursor-boxe: url(../imgs/cursor.png), auto;
+}
+
+body {
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    cursor: var(--cursor-boxe);
+}
+
+main{
+    height: 100vh;
+    background-image: url(../img/imgFundo.jpg);
+    /* background-size: cover; */
+    background-size: 1900px auto;
+    background-position: center; 
+    background-repeat: no-repeat;
+
+    #txtnome{
+        #nome{
+            
+            text-align: center;
+            position: relative;
+            top: 410px;
+            margin-left: 460px;
+            width: 135px; 
+            font-size: 40px; 
+            border: none; 
+            border-bottom: 2px solid rgb(0, 0, 0); 
+            outline: none; 
+            background: transparent; 
+            font-family: Pixel02;
+            cursor: var(--cursor-boxe);   
+        }
+        input::placeholder{
+            color:rgb(15, 15, 15);
+            opacity: 2;
+        }
+    }
+
+    .proximo{ 
+        padding-top: 280px;
+        padding-left: 600px;
+        #txtfase{
+            text-align: center;
+            width: 675px; 
+            height: 70px; 
+            font-size: 70px; 
+            border: none; 
+            outline: none; 
+            background: transparent; 
+            font-family: Pixel02;
+            font-weight: 600;
+            cursor: var(--cursor-boxe);
+        }
+        #txtfase2{
+            display: block;
+            text-align: center;
+            width: 620px; 
+            height: 70px; 
+            font-size: 70px; 
+            border: none; 
+            outline: none; 
+            background: transparent; 
+            font-family: Pixel02;
+            font-weight: 600;
+            cursor: var(--cursor-boxe);
+        }
+    }
+
+    .jogar{
+        padding-top: 50px;
+        margin-left: 235px;
+        color: red; 
+        button{
+            background-color: rgb(226, 72, 60);
+        }
+        button:hover{
+            background-color: black;
+            color: rgb(226, 72, 60);
+        }
+        }
+    }   
+
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: center ;
+        margin-top: 175px;
+        margin-left: 510px;
+        .centralizar{
+            #raio{
+                width: 35%;
+                padding: 20px;
+                text-align: center;
+                transform: translateZ(40px);
+                cursor: pointer;
+                margin-top: -15px;
+            
+                #botao{
+                    position: absolute;
+                    width: 68px;
+                    right: 55px;
+                    top: -130px;
+                    border-radius: 50%;
+                    cursor: var(--cursor-boxe);
+                }    
+                #botao2{
+                    position: absolute;
+                    width: 68px;
+                    right: 410px;
+                    top: -15px;
+                    border-radius: 50%;
+                    cursor: var(--cursor-boxe);
+                }
+                #botao3{
+                    position: absolute;
+                    width: 68px;
+                    right: 55px;
+                    top: 100px;
+                    border-radius: 50%;
+                    cursor: var(--cursor-boxe);
+                }
+                #botao4{
+                    position: absolute;
+                    width: 68px;
+                    right: 410px;
+                    top: 100px;
+                    border-radius: 50%;
+                    cursor: var(--cursor-boxe);
+                }
+                #botao5{
+                    position: absolute;
+                    width: 68px;
+                    right: 230px;
+                    top: 100px;
+                    border-radius: 50%;
+                    cursor: var(--cursor-boxe);
+                }
+                #botao6{
+                    position: absolute;
+                    width: 68px;
+                    right: 410px;
+                    top: -130px;
+                    border-radius: 50%;
+                    cursor: var(--cursor-boxe);
+                }
+                #botao7{
+                    position: absolute;
+                    width: 68px;
+                    right: 55px;
+                    top: -15px;
+                    border-radius: 50%;
+                    cursor: var(--cursor-boxe);
+                }
+                #botao8{
+                    position: absolute;
+                    width: 68px;
+                    right: 230px;
+                    top: -130px;
+                    border-radius: 50%;
+                    cursor: var(--cursor-boxe);
+                }
+            }
+        }  
+        
+       
+    } 
+    button {
+        background-color: black;
+        color: white;
+        padding: 25px;
+        border-radius: 15px;
+        cursor: var(--cursor-boxe);
+        margin-left: 10px;
+        font-family: Pixel02;
+    }  
+
+
+@keyframes piscaPisca {
+    0%{background-color: blue; }
+    10% {background-color: blue;}
+    25% {background-color: yellow;}
+    35%{background-color: yellow;}
+    45%{background-color: blue; }
+    55% {background-color: blue;}
+    65% {background-color: yellow;}
+    75%{background-color: yellow;}
+    85%{background-color: blue; }
+    95% {background-color: blue;}
+    100% {background-color: yellow;}
+}
+
+@keyframes textocolorido {
+    0%{color: blue; }
+    10% {color: blue;}
+    25% {color: yellow;}
+    35%{color: yellow;}
+    45%{color: blue; }
+    55% {color: blue;}
+    65% {color: yellow;}
+    75%{color: yellow;}
+    85%{color: blue;}
+    95% {color: blue;}
+    100% {color: yellow;}
+}
+/* 1880px */
+
